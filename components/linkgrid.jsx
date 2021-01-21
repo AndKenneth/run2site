@@ -16,6 +16,18 @@ export default function LinkGrid () {
           <p>Meaningful and well run events that players love</p>
         </div>
       </Link>
+      <Link href="/technology">
+        <div className={styles.card}>
+          <h3>Technology</h3>
+          <p>Innovative tech to powers everything we do</p>
+        </div>
+      </Link>
+      <Link href="/full-service">
+        <div className={styles.card}>
+          <h3>Full Service Projects</h3>
+          <p>We're ready to exectue your next idea from start to finish</p>
+        </div>
+      </Link>
     </div>
   )
 }
